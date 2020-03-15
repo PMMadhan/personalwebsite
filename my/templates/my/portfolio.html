@@ -1,0 +1,34 @@
+{% extends 'my/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container" style="margin-top: 100px">
+<div class="card-deck">
+  <div class="card">
+    <img src="{% static 'my/images/bd.jpg' %}" class="card-img-top" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Business Development</h5>
+      <p class="card-text">Experienced Business Development professional with a demonstrated history of working in the information technology and services industry. Skilled in Sales, Customer Relationship Management (CRM), Strategic Partnerships, Management, and Account Management.</br></br>
+Specialties: Online Bidding, Cold Calling, Email Marketing, Account Management, Client Interactions, Marketing research, lead generation, negotiation. </p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static 'my/images/ds.jpg' %}" class="card-img-top" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Data Scientist</h5>
+      <p class="card-text">Data Science entusiast with a demonstrated history of working in the internet industry. Skilled in Machine Learning, Statistical Modeling and Python. </p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static 'my/images/bi.jpg' %}" class="card-img-top" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Business Intelligence</h5>
+      <p class="card-text">Make the data understandable for businesses!</br> In charge of developing, deploying, and maintaining BI interfaces. Those include query tools, data visualization and interactive dashboards, ad hoc reporting, and data modeling tools.</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+</div>
+</div>
+{% endblock %}
